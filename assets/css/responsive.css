@@ -68,6 +68,7 @@
   }
   .timeline li .line-title {
     line-height: 26px;
+    font-weight: 900;
   }
   .timeline li:first-child i {
     margin: -12px -40px;
