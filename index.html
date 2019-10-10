@@ -34,7 +34,7 @@
     <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
       <!-- Navbar Start -->
-      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo top-nav-collapse">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -159,7 +159,7 @@
     <section id="services" class="services section-padding">
       <h2 class="section-title wow flipInX" data-wow-delay="0.4s">WHAT I DO</h2>
       <div class="container">
-        <div class="row">
+        <div class="row d-flex align-items-stretch">
           <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.3s">
@@ -265,9 +265,7 @@
                     <div class="line-text">BACHELOR OF COMPUTING (HONOURS) IN COMPUTER SCIENCE</div>
                     <p class="line-text">RELEVANT COURSEWORK</p>
                         <p>INTRODUCTION TO OPERATING SYSTEMS </p>
-                        <p>INTRODUCTION TO ARTIFICIAL INTELLIGENCE</p>
-                        <p>SOFTWARE ENGINEERING</p>
-                        <p>DESIGN AND ANALYSIS OF ALGORITHMS</p>
+                        <p>COMPUTER NETWORKS IN PRACTICE</p>
                         <p>MACHINE LEARNING</p>
                         <p>NATURAL LANGUAGE PROCESSING</p>
                   </div>
@@ -296,81 +294,47 @@
     </div>
     <!-- Resume Section End -->
 
-    <section id="skills" class="skills section-padding">
+    <section id="skills" class="skills section-padding d-flex flex-column align-items-center justify-content-center">
       <h2 class="section-title flipInX" style="margin-bottom: 10px">SKILLS</h2>
       <p class="section-title flipInX" style="text-align: center; font-size: 16px; font-weight: 400">Technological stacks that I have worked with, or am currently learning.</p>
       <div class="container" style="display:inline-flex;">
-        <div class="skills-item" style="margin:5px">
-          <div class="icon">
-            <img style="max-height:64px" src="./assets/img/gallery/azure.svg"/>
-          </div>
-          <div class="skills-content">
-            <h3><p>Azure</p></h3>
-          </div>
+        <div class="skills-item" style="margin:5px;">
+          <img class="icon" style="height: 50px; width: auto;" src="./assets/img/gallery/azure.svg"/>
+          <p class="skills-content">Azure</p>
+        </div>
+        <div class="skills-item" style="margin:5px;">
+          <img class="icon" style="height: 50px; width: auto;" src="./assets/img/gallery/node.svg"/>
+          <p class="skills-content">NodeJS</p>
         </div>
         <div class="skills-item" style="margin:5px">
-          <div class="icon">
-            <img style="max-height:64px" src="./assets/img/gallery/node.svg"/>
-          </div>
-          <div class="skills-content">
-            <h3><p>Node/Express</p></h3>
-          </div>
+          <img class="icon" style="height: 50px; width: auto;" src="./assets/img/gallery/sql-server.svg"/>
+          <p class="skills-content">MSSQL</p>
         </div>
         <div class="skills-item" style="margin:5px">
-          <div class="icon">
-            <img style="max-height:64px" src="./assets/img/gallery/sql-server.svg"/>
-          </div>
-          <div class="skills-content">
-            <h3><p>MSSQL</p></h3>
-          </div>
+          <img class="icon" style="height: 50px; width: auto;" src="./assets/img/gallery/graphQL.svg"/>
+          <p class="skills-content">ApolloGraphQL</p>
+        </div>
+      </div>
+      <div class="container" style="display:inline-flex;">
+        <div class="skills-item" style="margin:5px">
+          <img class="icon" style="height: 50px; width: auto;" src="./assets/img/gallery/grpcio-icon.svg"/>
+          <p class="skills-content">gRPC</p>
         </div>
         <div class="skills-item" style="margin:5px">
-          <div class="icon">
-            <img style="max-height:64px" src="./assets/img/gallery/graphQL.svg"/>
-          </div>
-          <div class="skills-content">
-            <h3><p>ApolloGraphQL</p></h3>
-          </div>
+          <img class="icon" style="height: 50px; width: auto;" src="./assets/img/gallery/vue.svg"/>
+          <p class="skills-content">Vue/Vuex</p>
         </div>
         <div class="skills-item" style="margin:5px">
-          <div class="icon">
-            <img style="max-height:64px" src="./assets/img/gallery/grpcio-icon.svg"/>
-          </div>
-          <div class="skills-content">
-            <h3><p>gRPC</p></h3>
-          </div>
+          <img class="icon" style="height: 50px; width: auto;" src="./assets/img/gallery/react.svg"/>
+          <p class="skills-content">React</p>
         </div>
         <div class="skills-item" style="margin:5px">
-          <div class="icon">
-            <img style="max-height:64px" src="./assets/img/gallery/vue.svg"/>
-          </div>
-          <div class="skills-content">
-            <h3><p>Vue/Vuex</p></h3>
-          </div>
+          <img class="icon" style="height: 50px; width: auto;" src="./assets/img/gallery/kubernetes.svg"/>
+          <p class="skills-content">Kubernetes</p>
         </div>
         <div class="skills-item" style="margin:5px">
-          <div class="icon">
-            <img style="max-height:64px" src="./assets/img/gallery/react.svg"/>
-          </div>
-          <div class="skills-content">
-            <h3><p>React</p></h3>
-          </div>
-        </div>
-        <div class="skills-item" style="margin:5px">
-          <div class="icon">
-            <img style="max-height:64px" src="./assets/img/gallery/kubernetes.svg"/>
-          </div>
-          <div class="skills-content">
-            <h3><p>Kubernetes</p></h3>
-          </div>
-        </div>
-        <div class="skills-item" style="margin:5px">
-          <div class="icon">
-            <img style="max-height:64px" src="./assets/img/gallery/raspberry.svg"/>
-          </div>
-          <div class="skills-content">
-            <h3><p>Raspberry</p></h3>
-          </div>
+          <img class="icon" style="height: 50px; width: auto;" src="./assets/img/gallery/raspberry.svg"/>
+          <p class="skills-content">Raspberry</p>
         </div>
       </div>
     </section>
